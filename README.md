@@ -1,2 +1,2 @@
 # ThingspeakDataView
-Custom data viewer using chart.js
+Web Custom data viewer using chart.js 
