@@ -1,0 +1,10 @@
+{
+    "file-sync.mapping": [
+    
+        {
+            "from": "./",
+            "to": "H:/greenhouse"
+        }
+    ],
+    "file-sync.showMessage": true
+}

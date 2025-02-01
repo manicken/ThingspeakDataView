@@ -1,0 +1,55 @@
+.Menu {
+      margin-left:10px;
+      padding-top:10px;
+    }
+    .MenuItem {
+    display:inline-block;
+    margin:5px;
+    
+    }
+    #rangeBackButton,#rangeForwardButton {
+      width:42px;
+    }
+    .MenuItem button {
+      background-color:#9c85af;
+      padding:10px;
+      font-size:16px;
+      border-radius: 10px;
+    }
+    .info {
+      /*border:1px solid black;*/
+    }
+    .DateSelect {
+      width:200px;
+      height:42px;
+      font-weight:bold;
+    }
+    #RangeType {
+      width:200px;
+      height:42px;
+      font-weight:bold;
+    }
+	.temps {
+		margin:10px;
+		display: grid; grid-template-columns:100px 120px 200px;
+	}
+  .temps div {
+    height:32px;
+  }
+	.temps .value {
+		
+		
+		font-size:32px;
+	}
+	.temps .collabel {
+		font-size:20px;
+	}
+	.temps .rowlabel {
+		font-size:20px;
+	}
+	.temps .date {
+		font-size:20px;
+	}
+	.temps .seperatorLine {
+		height:32px;
+	}

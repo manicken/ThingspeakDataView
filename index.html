@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+	<script type='text/javascript' src="helpers.js"></script>
+	<script type='text/javascript' src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+
+</head>
+<body>
+<div class="Menu">
+    <div class="MenuItem"><select id="RangeType" onChange="rangeTypeChanged()"></select></div>
+    <div class="MenuItem"><button type="button" id="rangeBackButton" onclick="rangeBack()">&#60;</button></div>
+    <div class="MenuItem"><button type="button" id="rangeForwardButton" onclick="rangeForward()">&#62;</button></div>
+    <div class="MenuItem"><input class="DateSelect" id="StartDate"></input></div>
+    <div class="MenuItem"><input class="DateSelect" id="EndDate"></input></div>
+    <div class="MenuItem"><a href="/index.html"><button id="backToMenu" type="button" style="width:170px; background-color:#a3a3a3">back to MainMenus</button></a></div>
+  </div>
+<div>
+  <canvas id="myChart" height="256"></canvas>
+</div>
+<div id="tempStats" class="temps">
+	<div class="collabel"></div>
+	<div class="collabel" id="tempName">(name)</div>
+	<div class="collabel">date</div>
+	<div class="rowlabel">max</div>
+	<div class="value">5</div>
+	<div class="date">2025-01-01 18:45:30</div>
+	<div class="rowlabel">curr</div>
+	<div class="value">0</div>
+	<div class="date">2025-01-01 18:45:30</div>
+	<div class="rowlabel">min</div>
+	<div class="value">-5</div>
+	<div class="date">2025-01-01 18:45:30</div>
+</div>
+<div class="info" id="status"></div>
+<div class="info" id="log"></div>
+<div class="info" id="log2"></div>
+
+</body>
+</html>
